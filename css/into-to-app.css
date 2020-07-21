@@ -1,0 +1,35 @@
+.intro-to-app{
+  
+    padding: 0;
+    background-color:#F9F1F0;
+
+}
+.intro-to-app img{
+    display: inline;
+}
+.intro-to-app h1{
+    font-family: ostrich sans ;
+    font-weight: bold;
+    display: inline;
+    font-size: 50px;
+
+}
+.intro-to-app p{
+    font-family: hevletica;
+    
+}
+.imgbottom{
+    width: 200%;
+    margin: 0; 
+    
+    position: relative;
+    
+}
+
+.img-top{
+    margin: 0;
+    position: relative;
+   
+    
+    
+}
