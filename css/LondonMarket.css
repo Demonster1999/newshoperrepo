@@ -1,10 +1,4 @@
-@font-face {
-	font-family: 'Ostrich Sans';
-	src: url('ostrich-sans-bold.eot');
-	src: local('☺'), url('../fonts/ostrich-sans-bold.woff') format('woff'), url('../fonts/ostrich-sans-bold.ttf') format('truetype'), url('../fonts/ostrich-sans-bold.svg') format('svg');
-	font-weight: 700;
-	font-style: normal;
-}
+
 body::-webkit-scrollbar {
 	display: none;
   }
@@ -17,11 +11,19 @@ body::-webkit-scrollbar {
   }
 
 *, body {  
-	  font-family: Great Vibes ,serif;
+	  font-family: ostrich sans;
+	  font-weight: 500;
+	  font-style: normal;
+	
 	  
 }
 body { overflow-x: hidden;
+	  background-color: #ffd4cb;
 
+ }
+
+ p{
+	 font-family: monospace;
  }
 body, h1 { margin: 0; }
 

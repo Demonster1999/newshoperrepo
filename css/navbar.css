@@ -1,23 +1,25 @@
 .custom-nav {
-    background-color: coral;
+    background-color: #e2725b;
    
 }
-.custom-nav *{
+.custom-nav {
     color: #fff;
     font-size: 25px;
-    padding: 5px;
+    
 }
-.custom-nav *:hover{
-    color: #fff;
-    font-size: 25px;
-    padding: 5px;
+
+
+.third-nav a{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 
 .nav {
     position: fixed;
     top: 45%;
     bottom: 30%;
-    right: 5px;
+    right: 0;
 	width: 60px;
 	z-index: 50;
 }
@@ -56,3 +58,4 @@
 .active {
     box-shadow: 0 0 0 3px #fffffff1, 0 0 0 6px #000;
 }
+
