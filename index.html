@@ -21,6 +21,9 @@
 	<link rel="stylesheet" href="css/into-to-app.css">
 	<link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="css/carousel.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/category.css">
+	<link rel="stylesheet" href="css/modals.css">
 	
 </head>
 <body>
@@ -80,7 +83,9 @@
 					<li data-target="#demo" data-slide-to="0" class="active"></li>
 					<li data-target="#demo" data-slide-to="1"></li>
 					<li data-target="#demo" data-slide-to="2"></li>
-					<!-- <li data-target="#demo" data-slide-to="3"></li> -->
+					<li data-target="#demo" data-slide-to="3"></li>
+					<li data-target="#demo" data-slide-to="4"></li>
+						<!-- <li data-target="#demo" data-slide-to="3"></li> -->
 				</ul>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
@@ -99,25 +104,16 @@
 					</div>
 					<div class="carousel-item">
 						<img src="images/carousel/cp11.jpg" alt="Chicago" >
-						<div class="carousel-caption">
-							<h3>Chicago</h3>
-							<p>Thank you, Chicago!</p>
-						</div>
+						
 					</div>
-					<!-- <div class="carousel-item">
-						<img src="images/images/lmimages/Adobe_20200716_143015.png" alt="Chicago">
-						<div class="carousel-caption">
-							<h3>Chicago</h3>
-							<p>Thank you, Chicago!</p>
-						</div>
-					</div> -->
-					<!-- <div class="carousel-item">
-						<img src="images/carousel/carousel3.jpg" alt="New York" class=" w-100" style="height: 300px; max-height: 500px;">
-						<div class="carousel-caption">
-							<h3>New York</h3>
-							<p>We love the Big Apple!</p>
-						</div>
-					</div> -->
+					<div class="carousel-item">
+						<img src="images/carousel/cp1.jpg" alt="Chicago">
+						
+					</div>
+					<div class="carousel-item">
+						<img src="images/carousel/candypops floor plan 1.jpeg" alt="New York" class=" w-100" style="image-rendering: optimizeQuality; image-orientation: from-image; contain: size; ; height: 300px; max-height: 500px;">
+						
+					</div>
 				</div>
 				<a class="carousel-control-prev" href="#demo" data-slide="prev">
 					<span class="carousel-control-prev-icon"></span>
@@ -130,7 +126,7 @@
 
 <section class=" intro-to-app container-fluid">
 	<img src="images/tm-border-black-top.png" class="w-100 img-top" alt="">
-	<div class="container-fluid text-center ">
+	<div class=" text-center ">
 		
 		<img src="images/images/lmimages/lm.png" class="p-0 m-0" width=200px height="200px" alt="" >
 		<h1 class="mx-auto  "> Get Shop-a-holic</h1>
@@ -175,33 +171,36 @@
 	<div class="col-md-1"></div>
 	<div class="col-md-2 text-center mt-5  ">
 		<div class="tm-img-circle-border mx-auto ">
-			<img src="images/category/display category/Women clothing.jpg" alt="Testimonial 1" class="img-circle tm-img-testimonial">
-			<h4 class=" mt-2 "> Women clothing </h4>
+			<a href="" class="pop" data-toggle="modal" data-target="#wc"><img src="images/category/display category/Women clothing.jpg" alt="Testimonial 1" class="img-circle tm-img-testimonial">
+			<h4 class=" category-name mt-2 "> Women clothing </h4></a>
 		</div>
 	</div>
 	<div class="col-md-2 text-center mt-5 ">
 		<div class="tm-img-circle-border mx-auto ">
-			<img src="images/category/display category/children.jpg" alt="Testimonial 2" class="img-circle tm-img-testimonial">
-			<h4 class=" mt-2 "> Children clothing</h4>
+			<a href="" class="pop" data-toggle="modal" data-target="#cc"><img src="images/category/display category/children.jpg" alt="Testimonial 2" class="img-circle tm-img-testimonial">
+			<h4 class=" category-name mt-2 "> Children clothing</h4></a>
 		</div>
 	</div>
 	<div class="col-md-2 text-center mt-5 ">
 		<div class="tm-img-circle-border mx-auto ">
-			<img src="images/category/display category/umens.jpeg" alt="Testimonial 3" class="img-circle tm-img-testimonial">
-			<h4 class=" mt-2 "> Menswear </h4>
+		<a href="" class="pop" data-toggle="modal" data-target="#mw">	<img src="images/category/display category/umens.jpeg" alt="Testimonial 3" class="img-circle tm-img-testimonial">
+			<h4 class=" category-name mt-2 "> Menswear </h4></a>
 		</div>
 
 	</div>
 	<div class="col-md-2 text-center mt-5 ">
 		<div class="tm-img-circle-border mx-auto ">
-			<img src="images/category/display category/Jewellery.jpg" alt="Testimonial 4" class="img-circle tm-img-testimonial">
-			<h4 class=" mt-2 "> Jewellery</h4>
+			<a href="" class="pop" data-toggle="modal" data-target="#jwels">
+				<img src="images/category/display category/Jewellery.jpg" alt="Testimonial 4" class="img-circle tm-img-testimonial">
+			<h4 class=" category-name mt-2 "> Jewellery</h4></a>
 		</div>
 	</div>
 	<div class="col-md-2 text-center mt-5 ">
 		<div class="tm-img-circle-border mx-auto ">
+			<a href="" class="pop"data-toggle="modal" data-target="#fw">
 			<img src="images/category/display category/Footwear.jpg" alt="Testimonial 5" class="img-circle tm-img-testimonial">
-			<h4 class=" mt-2 "> foot wear </h4>
+			<h4 class=" category-name mt-2 "> foot wear </h4>
+			</a>
 		</div>
 	</div>
 	<div class="col-md-1"></div>
@@ -209,35 +208,46 @@
 <hr class="tm-author-name-underline mt-5">
 <div class="  row text-center mt-5 ">
 	<div class="col-md-1"></div>
-	<div class="col-md-2 text-center mt54 ">
+	<div class="col-md-2 text-center mt-5 ">
 		<div class="tm-img-circle-border mx-auto ">
+			<a href="" class="pop"data-toggle="modal" data-target="#dl">
 			<img src="images/category/display category/Decor & Linen.jpg" alt="Testimonial 1" class="img-circle tm-img-testimonial">
-			<h4 class=" mt-2 "> Decor & Linen </h4>
+				<h4 class=" category-name mt-2 "> Decor & Linen </h4>
+			</a>
+			
 		</div>
 	</div>
 	<div class="col-md-2 text-center mt-5 ">
 		<div class="tm-img-circle-border mx-auto ">
+			<a href="" class="pop" data-toggle="modal" data-target="#hc" >
 			<img src="images/category/display category/Handicrafts.jpg" alt="Testimonial 2" class="img-circle tm-img-testimonial">
-			<h4 class=" mt-2 "> Handicrafts </h4>
+			<h4 class=" category-name mt-2 "> Handicrafts </h4>
+			</a>
 		</div>
 	</div>
 	<div class="col-md-2 text-center mt-5 ">
 		<div class="tm-img-circle-border mx-auto  ">
+			<a href="" class ="pop" data-toggle="modal" data-target="#funi">
 			<img src="images/category/display category/Furniture.jpg" alt="Testimonial 3" class="img-circle tm-img-testimonial">
-			<h4 class=" mt-2 "> Furniture</h4>
+			<h4 class=" category-name mt-2 "> Furniture</h4>
+			</a>
 		</div>
 
 	</div>
 	<div class="col-md-2 text-center mt-5 ">
 		<div class="tm-img-circle-border mx-auto ">
+			<a href="" class="pop" data-toggle="modal" data-target="#bt">
 			<img src="images/category/display category/Beauty.jpg" alt="Testimonial 4" class="img-circle tm-img-testimonial">
-			<h4 class=" mt-2 "> Beauty </h4>
+			<h4 class=" category-name mt-2 "> Beauty </h4>
+			</a>
 		</div>
 	</div>
 	<div class="col-md-2 text-center mt-5 ">
 		<div class="tm-img-circle-border mx-auto ">
+			<a href="" class="pop" data-toggle="modal" data-target="#fg">
 			<img src="images/category/display category/Flowers & Gifting.jpg" alt="Testimonial 5" class="img-circle tm-img-testimonial">
-			<h4 class=" mt-2 "> Flowers and Gifting </h4>
+			<h4 class=" category-name mt-2 "> Flowers and Gifting </h4>
+			</a>
 		</div>
 	</div>
 </div>
@@ -246,33 +256,43 @@
 	<div class="col-md-1"></div>
 	<div class="col-md-2 text-center mt-5 ">
 		<div class="tm-img-circle-border mx-auto ">
+			<a href="" class="pop" data-toggle="modal" data-target="#ct">
 			<img src="images/category/display category/Customised Tailoring.jpg" alt="Testimonial 1" class="img-circle tm-img-testimonial">
-			<h4 class=" mt-2 "> Customised Tailoring</h4>
+			<h4 class=" category-name mt-2 "> Customised Tailoring</h4>
+			</a>
 		</div>
 	</div>
 	<div class="col-md-2 text-center mt-5 ">
 		<div class="tm-img-circle-border mx-auto ">
+			<a href="" class="pop" data-toggle="modal" data-target="#bs">
 			<img src="images/category/display category/books and stationary.jpg" alt="Testimonial 2" class="img-circle tm-img-testimonial">
-			<h4 class=" mt-2 "> books and Stationary </h4>
+			<h4 class=" category-name mt-2 "> books and Stationary </h4>
+		</a>
 		</div>
 	</div>
 	<div class="col-md-2 text-center mt-5 ">
 		<div class="tm-img-circle-border mx-auto  ">
+			<a href="" class="pop" data-toggle="modal" data-target="#acess">
 			<img src="images/category/display category/Accessories.jpg" alt="Testimonial 3" class="img-circle tm-img-testimonial">
-			<h4 class=" mt-2 "> Accessories </h4>
+			<h4 class=" category-name mt-2 "> Accessories </h4>
+			</a>
 		</div>
 
 	</div>
 	<div class="col-md-2 text-center mt-5 ">
 		<div class="tm-img-circle-border mx-auto ">
+			<a href="" class="pop" data-toggle="modal" data-target="#hs">
 			<img src="images/category/display category/health & safety.jpg" alt="Testimonial 4" class="img-circle tm-img-testimonial">
-			<h4 class=" mt-2 "> Health and Safety </h4>
+			<h4 class=" category-name mt-2 "> Health and Safety </h4>
+		</a>
 		</div>
 	</div>
 	<div class="col-md-2 text-center mt-5 ">
 		<div class="tm-img-circle-border mx-auto ">
+			<a href="" class="pop" data-toggle="modal" data-target="#fb">
 			<img src="images/category/display category/f&b.jpg" alt="Testimonial 5" class="img-circle tm-img-testimonial">
-			<h4 class=" mt-2 "> Food and beverage </h4>
+			<h4 class=" category-name mt-2 "> Food and beverage </h4>
+			</a>
 		</div>
 	</div>
 	<div class="col-md-1"></div>
@@ -342,12 +362,229 @@
 		</section> <!-- contact -->
 	
 	
-	<footer class="text-right tm-dark-bg">		
-		<p class="text-uppercase container small">Copyright &copy; 2084 <a href="#">one market international </a></p>
+	<footer class="footer-section">
+		<div class="container-fluid">
+			<div class="footer-cta pt-5 pb-5">
+				<div class="row">
+					<div class="col-xl-4 col-md-4 mb-30">
+						<div class="single-cta">
+						<a href="https://goo.gl/maps/uWNy87fRRZGj6Vp49">
+							<i class="fas fa-map-marker-alt"></i>
+							<div class="cta-text">
+								<h4>Find us</h4>
+								<span>One Management International 1110 Prakash Deep, 7 Tolstoy Marg, New Delhi-1</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-md-4 mb-30">
+						<div class="single-cta">
+						<a href="tel:+919311788999">	<i class="fas fa-phone"></i>
+							<div class="cta-text">
+								<h4>Call us</h4>
+								<span>+91 9311788999</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-md-4 mb-30">
+						<div class="single-cta">
+						 <a href="mailto:smlondonmarket@gmail.com"><i class="far fa-envelope-open"></i>
+							<div class="cta-text">
+								<h4>Mail us</h4>
+								<span>smlondonmarket@gmail.com</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-content pt-5 pb-5">
+				<div class="row">
+					<div class="col-xl-4 col-lg-4 mb-50">
+						<div class="footer-widget">
+							<div class="footer-logo mx-auto">
+								<a href="index.html"><img src="images/images/lmimages/SM- OMI logo.jpg" class="img-fluid w-50"
+										alt="logo"></a>
+							</div>
+							<div class="footer-text ">
+								<p><img src="images/images/lmimages/lm.png" class="img-fluid  w-75 "  alt="logo"></a></p>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+						<div class="footer-widget">
+							<div class="footer-widget-heading">
+								<h3>Useful Links</h3>
+							</div>
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">about</a></li>
+								<li><a href="#">services</a></li>
+								<li><a href="#">portfolio</a></li>
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Our Services</a></li>
+								<li><a href="#">Expert Team</a></li>
+								<li><a href="#">Contact us</a></li>
+								<li><a href="#">Latest News</a></li>
+							</ul>
+							
+						</div>
+						
+						<div class="  footer-social-icon">
+							
+							<span class="">Follow us</span>
+							<a href="#"><i class="fab fa-facebook-f"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-google-plus-g"></i></a>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+						<div class="footer-widget">
+							<div class="footer-widget-heading">
+								<h3>Subscribe</h3>
+							</div>
+							<div class="footer-text mb-25">
+								<p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+							</div>
+							<div class="subscribe-form">
+								<form action="#">
+									<input type="text" placeholder="Email Address">
+									<button><i class="fab fa-telegram-plane"></i></button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 text-center text-lg-left">
+						<div class="copyright-text">
+							<p>Copyright &copy; , All Right Reserved <a href="">OMI</a>
+							</p>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+						<div class="footer-menu">
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Terms</a></li>
+								<li><a href="#">Privacy</a></li>
+								<li><a href="#">Policy</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</footer>
-	<script src="js/jquery-1.11.1.min.js" ></script>
-	<!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script> -->
+
+
+
+
+<!-- modal for categories  -->
+
+<div class="modal fade" id="wc" tabindex="-1" role="dialog" aria-labelledby="wc"
+	aria-hidden="true">
+	<div class="modal-dialog  " role="document">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true" class="fa-3x text-warning">&times;</span>
+		</button>
+		<div class="modal-content mt-5  ">
+			
+				
+			
+			<div class="modal-body mt-5">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">Women Clothing</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">cat0 <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">cat1</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">cat2</a>
+							</li>
+
+
+				
+						</ul>
+				
+					</div>
+				</nav>
+
+					<div class="row">
+						<div class="col-md-2 m-auto">
+							<div class="card" style="width: 18rem;">
+								<img class="card-img-top" src="https://dummyimage.com/286x180" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+										content.</p>
+									<a href="#" class="btn btn-primary">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2 m-auto">
+							<div class="card" style="width: 18rem;">
+								<img class="card-img-top" src="https://dummyimage.com/286x180" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+										content.</p>
+									<a href="#" class="btn btn-primary">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2 m-auto">
+							<div class="card" style="width: 18rem;">
+								<img class="card-img-top" src="https://dummyimage.com/286x180" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+										content.</p>
+									<a href="#" class="btn btn-primary">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2 m-auto">
+							<div class="card" style="width: 18rem;">
+								<img class="card-img-top" src="https://dummyimage.com/286x180" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+										content.</p>
+									<a href="#" class="btn btn-primary">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+
+<!-- modals for categories end  -->
+
+
+	<!-- <script src="js/jquery-1.11.1.min.js" ></script> -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"
 			integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg=="
 			crossorigin="anonymous"></script>

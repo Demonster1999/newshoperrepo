@@ -63,12 +63,12 @@
 .dot3 {
     background-color: rgb(73, 58, 204);
 }
-
+    
 .dot4 {
     background-color: rgb(58, 70, 31);
 }
 
-.active {
+.nav li.active {
     box-shadow: 0 0 0 3px #fffffff1, 0 0 0 6px #000;
 }
 

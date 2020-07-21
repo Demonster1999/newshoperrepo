@@ -7,5 +7,7 @@
 			"path": "..\\..\\Desktop\\display category"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "LondonMarket"
+	}
 }

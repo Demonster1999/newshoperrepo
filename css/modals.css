@@ -1,0 +1,19 @@
+.modal-dialog{
+    max-width: 80%;
+}
+
+.modal-content{
+    background: url(../images/images/lmimages/Adobe_20200716_143015.png) ;
+    
+}
+
+.modal-content h3{
+    color:darkgreen; 
+    font-weight: bold; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.modal-body nav{
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,5 +1,17 @@
-.category-name{
-    position: relative;
-    top: 5px;
+ .category-name{
+   
+    color: black;
+  
     
 }
+ .category-name:hover{
+    color: black;
+    text-decoration: none;
+ }  
+.pop *{
+    transition: transform .2s;
+}
+.pop *:hover{
+transform: scale(1.2);
+}
+
