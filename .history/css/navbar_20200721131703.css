@@ -15,17 +15,7 @@
     font-weight: bold;
     color: #e2725b;
 }
-.third-nav ul li{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.third-nav .fa-facebook-f,.fa-twitter,.fa-linkedin-in,.fa-instagram,.fa-youtube{
- margin-left: 5px;
-  margin-right: 5px;
-    color:#e2725b;
-
-}
-
+.third-nav a
 /* thirdnav end  */
 
 .nav {

@@ -20,12 +20,11 @@
     margin-right: 10%;
 }
 .third-nav .fa-facebook-f,.fa-twitter,.fa-linkedin-in,.fa-instagram,.fa-youtube{
- margin-left: 5px;
-  margin-right: 5px;
+  padding-left: 2px;
+  padding
     color:#e2725b;
 
 }
-
 /* thirdnav end  */
 
 .nav {
