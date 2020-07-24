@@ -1,8 +1,15 @@
+#home .carousel{
+  max-height: 1080px;
+  width: 100%;
+  min-height: 420px;
+  object-fit: cover;
+}
+
+
 #home .carousel-inner img {
-    min-width: 100%;
-    min-height: 320px;
-    max-height: 500px;
-    max-resolution: 0;
+  width: 100%;
+  object-fit: contain;
+    
   }
 
 
