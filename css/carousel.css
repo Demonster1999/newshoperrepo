@@ -1,19 +1,24 @@
-#home .carousel{
-  max-height: 1080px;
-  width: 100%;
-  min-height: 420px;
-  object-fit: cover;
-}
+  #home{
+    overflow-x: hidden;
+  }
+  #home .carousel{
+    max-height: 800px;
+    min-height: 420px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 
-
-#home .carousel-inner img {
-  width: 100%;
-  object-fit: contain;
-    
   }
 
 
-  #home .carousel-inner .carousel-caption{
+  #home .carousel-inner img {
+    position: relative;
+  
+    width: 100%;
+    object-fit: scale-down(60%);
+    }
+
+
+  /* #home .carousel-inner .carousel-caption{
     position: absolute;
     font-size: 30px;
     background-color: rgba(0,0, 0, 0.3);
@@ -24,7 +29,7 @@
     height: 100%;
     top: 5px;
     
-  }
+  } */
 
     #home .carousel-inner .carousel-caption h3{
       position: relative;
