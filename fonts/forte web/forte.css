@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Forte';
+    src:url('Forte.ttf.woff') format('woff'),
+        url('Forte.ttf.svg#Forte') format('svg'),
+        url('Forte.ttf.eot'),
+        url('Forte.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}

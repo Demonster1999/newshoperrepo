@@ -1,17 +1,4 @@
- .category-name{
-   
-    color: black;
-  
-    
+.phone-section{
+    background: url(../images/fwdsmlondonmarketapppictures/bg.jpg);
+    background-size: 100%;
 }
- .category-name:hover{
-    color: black;
-    text-decoration: none;
- }  
-.pop *{
-    transition: transform .2s;
-}
-.pop *:hover{
-transform: scale(1.2);
-}
-

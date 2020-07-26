@@ -1,7 +1,7 @@
 
  .con {
 	 position: relative;
-   max-height: 1080px;
+   height: 1080px;
    min-height: 640px;
 	 background: url('../images/carousel/sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg') center center no-repeat ;
 	 background-size: cover;

@@ -3,7 +3,7 @@ ul {
     padding: 0px;
 }
 .footer-section {
-  background: #ffd4cb;
+  background: #FFEBEE;
   position: relative;
   
 }
@@ -140,7 +140,7 @@ ul {
   transform: rotate(-6deg);
 }
 .copyright-area{
-  background: #ffd4cb;
+  background: #FFEBEE;
   padding: 25px 0;
 }
 .copyright-text p {
