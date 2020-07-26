@@ -1,35 +1,36 @@
-.intro-to-app{
-  
-    padding: 0;
-    background-color:#F9F1F0;
+.intro-to-app {
+      
+    background-color: #FFEBEE;
+    overflow: hidden;
 
 }
-.intro-to-app img{
-    display: inline;
+
+.m-display-intro{
+    display: block;
 }
-.intro-to-app h1{
-    font-family: ostrich sans ;
-    font-weight: bold;
-    display: inline;
-    font-size: 50px;
+.c-display-intro {
+    display: none;
+}
+@media only screen and (min-width:768px){
+
+.m-display-intro{
+    display: none;
+}
+
+.c-display-intro{
+    display: block;
+}
+
 
 }
-.intro-to-app p{
-    font-family: hevletica;
-    
-}
-.imgbottom{
-    width: 200%;
-    margin: 0; 
-    
+
+.c-display-intro .one{
     position: relative;
-    
+    width: 60%;
+}
+.c-display-intro .two {
+    position: relative;
+    width: 40%;
 }
 
-.img-top{
-    margin: 0;
-    position: relative;
-   
-    
-    
-}
+
