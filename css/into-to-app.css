@@ -98,6 +98,7 @@ background: linear-gradient(to top, #ffc3a0, #FFAFBD);
     z-index: -3;
     /* opacity: 0.8; */
     font-size: 100px;
+    
     font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 
@@ -109,7 +110,8 @@ background: linear-gradient(to top, #ffc3a0, #FFAFBD);
     left: 40%;
     z-index: -3;
   
-    font-size: 20px;
+    font-size: 100%;
+    /* font-size-adjust: ; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 

@@ -1,5 +1,6 @@
 
  .con {
+	 display: none;
 	 position: relative;
    height: 1080px;
    min-height: 640px;
@@ -345,3 +346,18 @@
 	 transition: transform 1000ms 1350ms;
 }
  
+@media only screen and (min-width:1024px){
+
+	.con{
+		display: block;
+	}
+	.mcarousel{
+		display: none;
+	}
+}
+
+.mcarousel{
+	display: block;
+	height: 400px;
+	overflow-y:hidden;
+}
