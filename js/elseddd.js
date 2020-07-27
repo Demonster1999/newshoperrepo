@@ -1,29 +1,35 @@
-function changeDot() {
-    const scrollValue = $(window).scrollTop();
-    const heightSec2 = $('.sec2').offset().top;
-    const heightSec3 = $('.sec3').offset().top;
-    const heightSec4 = $('.sec4').offset().top;
+// $(document).ready(function () {
+//     $(' .awesome-tooltip a[href*=#]').bind('click', function (e) {
+//         e.preventDefault(); // prevent hard jump, the default behavior
 
-    if (scrollValue < heightSec2) {
-        $('nav li').not('.dot1').removeClass('active');
-        $('.dot1').addClass('active');
-    } else if (scrollValue < heightSec3) {
-        $('nav li').not('.dot2').removeClass('active');
-        $('.dot2').addClass('active');
-    } else if (scrollValue < heightSec4) {
-        $('nav li').not('.dot3').removeClass('active');
-        $('.dot3').addClass('active');
-    } else {
-        $('nav li').not('.dot4').removeClass('active');
-        $('.dot4').addClass('active');
-    }
-}
+//         var target = $(this).attr("href"); // Set the target as variable
 
-$(window).on("scroll", changeDot)
+//         // perform animated scrolling by getting top-position of target-element and set it as scroll target
+//         $('html, body').stop().animate({
+//             scrollTop: $(target).offset().top
+//         }, 600, function () {
+//             location.hash = target; //attach the hash (#jumptarget) to the pageurl
+//         });
 
-$('nav li').on('click', function () {
-    const goToSection = '.s' + $(this).attr('id');
-    $('body, html').animate({
-        scrollTop: $(goToSection).offset().top + 1
-    })
-})
+//         return false;
+//     });
+// });
+
+// $(window).scroll(function () {
+//     var scrollDistance = $(window).scrollTop();
+
+//     // Show/hide menu on scroll
+//     //if (scrollDistance >= 850) {
+//     //		$('nav').fadeIn("fast");
+//     //} else {
+//     //		$('nav').fadeOut("fast");
+//     //}
+
+//     // Assign active class to nav links while scolling
+//     $('.page-section').each(function (i) {
+//         if ($(this).position().top <= scrollDistance) {
+//             $('.awesome-tooltip active').removeClass('active');
+//             $('.awesome-tooltip a').eq(i).addClass('active');
+//         }
+//     });
+// }).scroll();

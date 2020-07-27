@@ -5,6 +5,8 @@ body::-webkit-scrollbar {
 html{
 	width: 100vw;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
+	transition: linear;
 }
 
 

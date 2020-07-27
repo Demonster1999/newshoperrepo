@@ -1,4 +1,5 @@
 .phone-section{
-    background: url(../images/fwdsmlondonmarketapppictures/bg.jpg);
-    background-size: 100%;
+    background: url(../images/fwdsmlondonmarketapppictures/bg.jpg) no-repeat;
+    background-size: cover;
+
 }
