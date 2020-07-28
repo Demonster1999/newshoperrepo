@@ -3,7 +3,13 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 #team {
-    background: #FDC2C8 !important;
+    /* background: #FDC2C8 !important; */
+}
+#team h1{
+    font-family: Georgia,
+    'Times New Roman',
+    Times,
+    serif;
 }
 
 .btn-primary:hover,
@@ -130,4 +136,12 @@ section .section-title {
     height: auto;
 
     /* border-radius: 50%; */
+}
+#team p {
+    font-family: Cambria,
+    Cochin,
+    Georgia,
+    Times,
+    'Times New Roman',
+    serif;
 }

@@ -5,8 +5,8 @@
 #myVideo {
   right: 0;
   bottom: 0;
-  min-width: 100%; 
-  filter:  blur(3px) brightness(1)  hue-rotate(330deg);
+  min-width:100%; 
+  filter:  brightness(1)  hue-rotate(330deg);
   /* min-height: 50%; */
 }
 
