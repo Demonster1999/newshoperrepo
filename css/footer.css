@@ -1,0 +1,11 @@
+footer{
+    /* background-attachment: fixed; */
+    background: url('../images/bg/footer\ bg-1.jpeg') no-repeat ;
+    background-position: center center;
+    /* opacity: 0.4; */
+
+}
+
+footer *{
+    color: #000;
+}

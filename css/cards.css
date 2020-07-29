@@ -4,6 +4,9 @@
 
 #team {
     /* background: #FDC2C8 !important; */
+    background: url(../images/bg/colornone-1.jpeg) no-repeat ;
+    background-size: 100%;
+    background-position: center bottom;
 }
 #team h1{
     font-family: Georgia,
