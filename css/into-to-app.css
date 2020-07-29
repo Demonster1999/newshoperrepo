@@ -1,32 +1,26 @@
 .intro-to-app {
-    
     overflow: hidden;
-    background: url(../images/bg/evie-s-ZyFHoJdojzc-unsplash.jpg) no-repeat;
-    /* background-attachment: fixed; */
-    background-position: left center ; 
-
- 
-
+    background: url(../images/bg/evie-s-ZyFHoJdojzc-unsplash.jpg) no-repeat left center fixed;
 }
 
-.intro-to-app h3{
+.intro-to-app h3 {
     font-family: FORTE;
     font-style: oblique;
     color: #12542b;
     opacity: 1;
 }
 
-.bold-span{
-    font-weight: 800 ;
+.bold-span {
+    font-weight: 800;
     opacity: 1;
 }
 
-.oblique-span{
+.oblique-span {
     font-style: oblique;
     opacity: 1;
 }
-.intro-to-app p{
+
+.intro-to-app p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     opacity: 1;
 }
-
